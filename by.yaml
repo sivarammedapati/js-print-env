@@ -1,0 +1,10 @@
+name: Custom Action
+on: [push]
+
+jobs:
+  job_101:
+    runs-on: ubuntu-latest
+    name: Job 101
+    steps:
+    - name: Print environment variables
+      uses:  sivarammedapati/print-env@master
